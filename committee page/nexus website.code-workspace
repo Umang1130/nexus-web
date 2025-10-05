@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "db",
+			"path": "../../../DB/db"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}

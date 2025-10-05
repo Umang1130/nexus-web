@@ -1,0 +1,184 @@
+body {
+  background-color: #111111;
+  color: #f1f1f1;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  padding: 10px 30px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  height: 50px;
+  width: auto;
+  vertical-align: middle;
+}
+.nav-links {
+  display: flex;
+  justify-content:center;
+  font-weight: 400;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 50px;
+}
+.nav-links li a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  transition: color 0.3s ease;
+  justify-content: center;
+}
+.nav-links li a:hover {
+  color: #14ffec;
+}
+header {
+  background-color:#161414;
+  padding: 20px 0;
+  text-align: center;
+  
+}
+h1 {
+  color: #ffffff;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+.hod-section {
+  background-color: #161414;
+  padding: 40px 0;
+  text-align: center;
+}
+.hod-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  display: block;
+  box-shadow: 0 0 15px rgba(20, 255, 236, 0.6);
+  border: 4px solid #ffffff;
+  transition: transform 0.3s ease;
+}
+.hod-photo:hover {
+  transform: scale(1.05);
+}
+.hod-name {
+  color: #ffffff;
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.hod-designation {
+  color: #14ffec;
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+.hod-qualification {
+  color: #f1f1f1;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.hod-experience {
+  color: #ffffff;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.hod-specialization {
+  color: #ffffff;
+  font-size: 1.4em;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+.committee-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+}
+.committee-title {
+  color: #14ffec;
+  text-align: center;
+  margin-bottom: 22px;
+  font-size: 2em;
+  letter-spacing: 1.5px;
+}
+.committee-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 28px;
+}
+.committee-card {
+  background: #222;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+  padding: 28px 18px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.committee-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 35px rgba(20, 255, 236, 0.13);
+}
+.role {
+  font-size: 1.05em;
+  color: #ffffff;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.member-name {
+  color: #f1f1f1;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.member-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 16px auto;
+  display: block;
+  box-shadow: 0 0 8px rgba(20, 255, 236, 0.5);
+  border: 3px solid #ffffff;
+  transition: transform 0.3s ease;
+}
+.member-photo:hover {
+  transform: scale(1.05);
+}
+.member-qualification {
+  color: #ffffff;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+.member-experience {
+  color: #ffffff;
+  font-size: 0.85em;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.member-specialization {
+  color: #ffffff;
+  font-size: 1 em;
+  line-height: 1.3;
+}
+footer {
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 0;
+  border-top: 1px solid #0d7377;
+  margin-top: 40px;
+  background: #181818;
+}
